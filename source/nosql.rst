@@ -7,7 +7,6 @@ NoSQL bāzētu datubāzu vadības sistēmu apraksts
 ------------------------------------------------
 
 
-
 .. raw:: pdf
 	
 	SetPageCounter 0 arabic

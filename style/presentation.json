@@ -1,0 +1,7 @@
+pageSetup:
+ 	firstTemplate: coverPage
+
+styles:
+	bodytext:
+		parent: normal
+		fontSize: 16
