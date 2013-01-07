@@ -1,0 +1,18 @@
+.. image:: images/rtu_logo.gif
+	:width: 50%
+
+<?py if title: ?>
+
+.. class:: title
+
+#{title}
+
+<?py #end ?>
+
+<?py if subtitle: ?>
+
+.. class:: subtitle
+
+#{subtitle}
+
+<?py #end ?>

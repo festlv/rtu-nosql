@@ -7,6 +7,7 @@ NoSQL bāzētu datubāzu vadības sistēmu apraksts
 ------------------------------------------------
 
 
+
 .. raw:: pdf
 	
 	SetPageCounter 0 arabic
@@ -14,7 +15,7 @@ NoSQL bāzētu datubāzu vadības sistēmu apraksts
 
 
 .. contents:: Saturs
-	:depth: 2
+	:depth: 3
 
 .. raw:: pdf
 
@@ -231,19 +232,52 @@ Realizācijas
 
 	PageBreak
 
+Secinājumi
+===========
+
+Nav sliktu vai labu darbarīku- ir tikai uzdevumam piemēroti darbarīki un uzdevumam nepiemēroti darbarīki. NoSQL datubāzes necenšās aizstāt tradicionālās, relāciju datubāzes. NoSQL datubāzes ir radītas specifiskiem pielietojumiem- visbiežāk, augstai veiktspējai, un mērogojamībai (it īpaši- horizontālai). Tradicionālās relāciju datubāzes arī var lietot šādu uzdevumu veikšanai, taču tas ir grūtāk, jo relāciju datubāzu pamatā jau ir datu integritātes un konsistences nodrošināšana- lietas, kuras NoSQL datubāzes samaina pret veiktspējas uzlabojumiem.
+
+NoSQL termins un kustība ir aizsākusies relatīvi nesen (lai gan arī pirms NoSQL termina eksistences, eksistēja datubāzes, kuras tagad dēvē par NoSQL datubāzēm)- 2009. gadā. Pamata pielietojums šīm datubāzēm ir jaunākās paaudzes tīmekļa lietojumu izstrādei un uzturēšanai. Augošā virtualizācijas sfēra arī ir devusi grūdienu NoSQL kustībai- ir viegli ieslēgt papildus datubāzes serverus, kad lietojuma apmeklētība aug, un tos izslēgt, kad lietojuma apmeklētība krītās. Piemēram- interneta veikalu apmeklētība Ziemassvētku periodā palielinās aptuveni par trešdaļu, salīdzinot ar pārējo gada periodu [11]_. Izmantojot NoSQL datubāzes, ir viegli uz šo brīdi ieslēgt papildus virtuālos serverus, kas pilda datubāzes serveru funkcijas, un pārējā periodā, šos serverus izslēgt. Lielākā daļa realizāciju ir paredzētas iespējas uz atsevišķa servera glabājamos datus "izdalīt" pārējiem serveriem, tādējādi izvairoties no datu zaudēšanas.
+
+Jebkuram izstrādātājam, kuram ir nācies izmantot relāciju datubāzi grafu struktūru glabāšanai, apzinās, ka tas nav viegls uzdevums, un gala rezultāts bieži vien nav optimāls no skaitļošanas resursu izmantošanas viedokļa. Tāpēc šādu struktūru uzglabāšanai un apstrādei piemērotākas ir grafu datubāzes.
+
+
+
+
+
+
+
+.. raw:: pdf
+
+	PageBreak
 
 Atsauces
 ===========
-.. [1] http://en.wikipedia.org/wiki/NoSQL
-.. [2] http://en.wikipedia.org/wiki/Eventual_consistency
-.. [3] http://nosql-database.org/
-.. [4] http://mongodb.org/
-.. [5] http://docs.mongodb.org/manual/reference/glossary/#term-bson
-.. [6] http:://redis.io/
-.. [7] https://github.com/andymccurdy/redis-py
-.. [8] http://www.html5rocks.com/en/features/storage
-.. [9] http://www.w3.org/TR/2011/CR-webstorage-20111208/
-.. [10] http://en.wikipedia.org/wiki/MapReduce
+
+.. [1] NoSQL - Wikipedia. Sk. 05.01.2013. 
+		http://en.wikipedia.org/wiki/NoSQL
+.. [2] Eventual Consistency - Wikipedia. Sk. 05.01.2013.
+	http://en.wikipedia.org/wiki/Eventual_consistency
+.. [3] NoSQL database. Sk. 06.01.2013.
+	http://nosql-database.org/
+.. [4] MongoDB. Sk. 06.01.2013. 
+	http://mongodb.org/
+.. [5] MongoDB user manual. Sk. 06.01.2013. 
+	http://docs.mongodb.org/manual/reference/glossary/#term-bson
+.. [6] Redis key-value store. Sk. 06.01.2013. 
+	http:://redis.io/
+.. [7] Redis-py library. Sk. 06.01.2013. 
+	https://github.com/andymccurdy/redis-py
+.. [8] HTML5 feature overview. Sk. 06.01.2013. 
+	http://www.html5rocks.com/en/features/storage
+.. [9] Web Storage. W3C Candidate Recommendation, Ian Hickson, 2011. Sk. 06.01.2013. 
+	http://www.w3.org/TR/2011/CR-webstorage-20111208/
+.. [10] MapReduce - Wikipedia. Sk. 07.01.2013. 
+	http://en.wikipedia.org/wiki/MapReduce
+.. [11] Amazon.com estimated visitors- Quantcast Inc. Sk. 07.01.2013. 
+	http://www.quantcast.com/amazon.com
 
 .. footer::
 	###Page###
+
+.. sectnum::
