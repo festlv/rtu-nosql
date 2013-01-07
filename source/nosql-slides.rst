@@ -6,9 +6,10 @@ NoSQL
 NoSQL bāzētu datubāzu vadības sistēmu apraksts
 ------------------------------------------------
 
+
 .. raw:: pdf
 
-	PageBreak
+	PageBreak oneColumn
 
 NoSQL
 ==========
@@ -62,7 +63,7 @@ Kolekcija vs tabula
 
 .. image:: images/mongodb.jpg
 	:width: 45%
-
+ 
 
 .. raw:: pdf
 
@@ -86,7 +87,7 @@ Map-Reduce 2
 ================
 
 .. image:: images/mapreduce.png
-	:width: 65%
+	:width: 70%
 
 .. raw:: pdf
 
@@ -231,3 +232,7 @@ Secinājumi
 * NoSQL datubāzes dažus ACID burtiņus aizvieto ar veiktspēju.
 * Potenciāla uzturēšanas izmaksu samazināšana (viena jaudīga un dārga servera vietā izmanto vairākus lētus)
 
+
+
+.. footer::
+	https://github.com/festlv/rtu-nosql

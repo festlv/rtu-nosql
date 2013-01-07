@@ -1,7 +1,19 @@
 pageSetup:
- 	firstTemplate: coverPage
+	firstTemplate: coverPage
+	margin-top: "1cm"
+	margin-bottom: "1cm"
+	margin-left: "2cm"
+	margin-right: "2cm"
 
 styles:
 	bodytext:
 		parent: normal
 		fontSize: 16
+
+	author:
+		parent: bodytext
+		alignment: right
+		
+	author-info:
+		parent: author
+		spaceBefore: 12
